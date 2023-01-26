@@ -1,0 +1,136 @@
+html {
+    max-width: 415px;
+    min-width: 380px;
+}
+
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 60px;
+}
+
+
+input {
+    width: 110px;
+}
+
+
+#dev-icon {
+    cursor: hand;
+    cursor:pointer;
+}
+
+
+#search-form {
+    margin-right: auto;
+    font-size: 3.5vw;
+}
+
+
+.form-check-label {
+    margin-left: auto;
+    font-size: 2.8vw;
+    font-weight: bold;
+}
+
+
+main {
+    background-color: #f9f9f9;
+    padding-top: 60px;
+}
+
+
+#topic-btn {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+
+table {
+    margin: 10px;
+    word-break : break-all;
+    background-color: white;
+}
+
+
+thead {
+    background-color: #f9f9f9;
+    font-size: 4vw;
+    text-decoration: underline;
+    text-underline-offset: 50%;
+}
+
+
+table td {
+    border-bottom: dotted 1px lightgray;
+    border-left: solid 1px lightgray;
+    border-right: solid 0.5px lightgray;
+    background-color: white;
+}
+
+
+tbody {
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+
+.post-item {
+    font-size: 3vw;
+    line-height: 2;
+}
+
+
+a {
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.btn {
+    font-weight: bold;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+#div-block {
+    margin-left: -0.5rem;
+    margin-right: 5rem;
+}
+
+
+#clear {
+    border-color: rgb(59, 73, 223);
+    color: rgb(59, 73, 223);
+}
+
+
+#clear:hover {
+    color: white;
+    background-color: rgb(59, 73, 223);
+}
+
+
+#result {
+    color: white;
+    background-color: rgb(59, 73, 223);
+}
+
+
+#tag-icon {
+    cursor: hand;
+    cursor:pointer;
+}
