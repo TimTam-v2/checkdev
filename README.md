@@ -53,10 +53,10 @@ You can select multiple tags (or just one tag) and check the list of posts, just
     
     - When a user selects a tag name and time period (1 week or 1 month) displayed in popup.html, the top 10 most popular articles for the past 7 or 30 days containing that tag are displayed at the bottom of popup.html[^2].
     
-    - Multiple tags can be selected, but the articles are displayed using OR conditions, not AND conditions.
+    - Multiple tags can be selected, but articles are displayed consecutively for each tag.
       
       I wondered whether to design it so that only articles related to ther corresponding tag are displayed each time the tag button is selected, 
-      but the concept was to have a list of articles, just like viewing the timeline of SNS, so I decided to display articles in this way using OR condition.
+      but the concept was to have a list of articles, just like viewing the timeline of SNS, so I decided to display articles in this way.
   
       > e.g. )  If the user selects #webdev and #javascript, the 10 articles tagged #webdev, 10 articles tagged #javascript, and so on are displayed in a series.
     
